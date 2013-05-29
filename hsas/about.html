@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>About the Harvard Student Art Show</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<script>
+		$(window).load(function() {    
+
+			var theWindow        = $(window),
+	    	$bg              = $("#bg"),
+	    	aspectRatio      = $bg.width() / $bg.height();
+
+			function resizeBg() {
+	
+				if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+			    	$bg.removeClass().addClass('bgheight');
+				} else {
+			    	$bg.removeClass().addClass('bgwidth');
+				}
+	
+			}
+	
+			theWindow.resize(function() {
+				resizeBg();
+			}).trigger("resize");
+	
+		});
+	
+	
+	</script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="logo"><img src="images/hsas_logo.png" /></div>
+
+	<img src="images/background_image.png" id="bg" alt="">
+	
+	<h2> <center>the fifth annual <span class="red_harvard">harvard</span> student art show</center></h2>
+
+    <div id="nav">
+    
+        <ul id="tabs">
+            <li id="home"><a href="index.html" >home</a></li>
+            <li><a href="about.html" id="about" class="selected">about</a></li>
+            <li id="testimonials"><a href="testimonials.html">testimonials</a></li>
+            <li id="gallery"><a href="gallery.html">gallery</a></li>
+            <li id="contact"><a href="contact.html" id="contact">contact</a></li>
+       		
+        </ul>
+       
+        
+    </div>
+    
+    <div id="main_content">
+    
+	    <!--<img src="images/JPEGposterFINAL.jpg" class="publicity" />-->
+	    
+	    <p>The Harvard Student Art Show is a visual arts exhibition held annually each spring during Harvard Arts First Weekend. The Harvard Student Art Show displays and sells the artwork of students from Harvard College and the Harvard graduate schools, providing students a rare opportunity to showcase their work publicly in a professional gallery setting. In addition to exposing Harvard University to the arts present on campus, the Harvard Student Art Show also fosters a community for the visual arts at Harvard.</p>
+	    <!--
+	    <h1>Harvard Student Art Show 2012</h1>
+	    <h4>Featured Artists</h4>
+	    
+	    <p>
+	    Ahsante Bean - Harvard College 2015 <br/>
+	    Alex Palmer - Harvard College 2012<br/>
+	    Alexander Jaffe - Harvard College 2015<br/>
+	    Allysa Adams - Harvard School of Dental Medicine 2014<br/>
+	    Amy Sun - Harvard College 2012<br/>
+	    Anna Ondaatje - Harvard College 2013<br/>
+	    Annie LaVigne - Harvard College 2012<br/>
+	    Christopher Holthouse - Harvard College 2015<br/>
+	    Emi Nietfeld - Harvard College 2015<br/>
+	    Emily Savage - Harvard College 2015<br/>
+	    Emma Framson - Harvard College 2015<br/>
+	    Esther Hsiang - Harvard College 2012<br/>
+	    Ethan Pierce - Harvard College 2014<br/>
+	    George Pocheptsov - Harvard College 2014<br/>
+	    Abdul Hakkim - Harvard Medical School<br/>
+	    Helena Hayoun Won - Harvard Graduate School of Design 2013<br/>
+	    Honor Wilkinson - Harvard College 2014<br/>
+	    Ingrid Verona Pierre - Harvard College 2012<br/>
+	    Isaac Dayno - Harvard College 2015<br/>
+	    Ivana Vukov - Harvard Kennedy School 2012<br/>
+	    James Danner - Harvard College 2012<br/>
+	    Jared Rosen - Harvard College 2015<br/>
+	    Jessica Walter - Harvard Medical School 2014<br/>
+	    Julia Eger - Harvard College 2014<br/>
+	    Katherine Agard - Harvard College 2013<br/>
+	    Kathryn Ryan - Harvard College 2013<br/>
+	    Ken Li - Harvard College 2012<br/>
+	    Melissa Oppenheim - Harvard College 2012<br/>
+	    Monica Palos - Harvard College 2015<br/>
+	    Ned Whitman - Harvard College 2015<br/>
+	    Nic Brickley - Harvard College 2014<br/>
+	    Ola Topczewska - Harvard College 2015<br/>
+	    Pili Mayora - Harvard College 2012<br/>
+	    Sara Joe Wolansky - Harvard College 2012<br/>
+	    Sara Sophia Lytle - Harvard College 2013<br/>
+	    Snoweria Zhang - Harvard College 2012<br/>
+	    Whitney Shaw - Harvard College 2012
+	    </p>
+	    -->
+	    
+	    <br/>
+	    <h4>HSAS Board</h4>
+	    
+	    <h5>Executive Directors</h5>
+	    <p>
+	    Anna Ondaatje <br/>
+        Gamze Seten
+	    </p>
+	    
+	    <h5>Public Relations and Marketing</h5>
+	    <p>
+	    Alisha Patel <br/>
+        Julia Eger <br/>
+        Christina Russell <br/>
+        Kelsey Miller
+	    </p>
+	    
+	    <h5>Design and Media</h5>
+	    <p>
+	    Lanier Walker <br/>
+        Colm Dubhrosa
+	    </p>
+	    
+	    <h5>Liaisons</h5>
+	    <p>
+	    Alexander Jaffe <br/>
+        Monica Palos <br/>
+        Eloise Horn
+	    </p>
+	    
+	    <h5>Logistics</h5>
+	    <p>
+	    Elizabeth Kjorlien <br/>
+        Barbara Carvalho <br/>
+        Ege Yumusak
+	    </p>
+	    
+	    <h5>Curators</h5>
+	    <p>
+	    Michael Pena <br/>
+        Connie Fu <br/>
+        Jack Pretto
+	    </p>
+	    
+	    <h5>Business and Finance</h5>
+	    <p>
+	    Jared Rosen <br/>
+        Willa Ott <br/>
+        Joanie Kim
+	    </p>
+	    
+	    <h5>Web Management</h5>
+	    <p>
+	    Alexander Jaffe <br/>
+        Jared Rosen
+	    </p>
+	    
+	    
+	    <div class="clear"></div>
+    
+    
+    </div>
+    
+
+</div>
+
+</body>
+</html>

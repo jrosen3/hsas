@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Harvard Student Art Show</title>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	
+	<script type="text/javascript" src="fancybox/jquery.easing-1.3.pack.js"></script>
+	
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<script>
+		$(window).load(function() {    
+
+			var theWindow        = $(window),
+	    	$bg              = $("#bg"),
+	    	aspectRatio      = $bg.width() / $bg.height();
+
+			function resizeBg() {
+	
+				if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+			    	$bg.removeClass().addClass('bgheight');
+				} else {
+			    	$bg.removeClass().addClass('bgwidth');
+				}
+	
+			}
+	
+			theWindow.resize(function() {
+				resizeBg();
+			}).trigger("resize");
+	
+		});
+	
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			/* This is basic - uses default settings */
+			
+			$("a.grouped_elements").fancybox({
+				'titlePosition': 'inside'
+			});
+			
+		});
+	</script>
+	
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="logo"><img src="images/hsas_logo.png" /></div>
+
+	<img src="images/background_image.png" id="bg" alt="">
+	
+	<h2>the fourth annual <span class="red_harvard">harvard</span> student art show</h2>
+	
+    <div id="nav">
+    
+        <ul id="tabs">
+            <li id="home"><a href="index.html">home</a></li>
+            <li><a href="about.html" id="about">about</a></li>
+            <li id="testimonials"><a href="testimonials.html">testimonials</a></li>
+            <li id="gallery"><a href="gallery.html" class="selected">gallery</a></li>
+            <li id="contact"><a href="contact.html" id="contact">contact</a></li>
+            
+        </ul>
+                
+    </div>
+    
+    <div id="main_content">
+    
+    
+    <h1>Harvard Student Art Show 2012</h1>
+	    <div id="photo_gallery">
+	        
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/AO_CN12s.jpg" 
+		    title="Ondaatje"><img src="images/submissions_thru/AO_CN12s_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/AO_CN11s.jpg" 
+		    title="Anna Ondaatje"><img src="images/submissions_thru/AO_CN11s_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Apple_in_Time.jpg" 
+		    title="Esther Hsiang"><img src="images/submissions_thru/Apple_in_Time_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/BlackEnso-Dairyu-Sojo.jpg" 
+		    title="Engrid Verona Pierre"><img src="images/submissions_thru/BlackEnso-Dairyu-Sojo_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/BlackEnso-Torei-Enji.jpg" 
+		    title="Engrid Verona Pierre"><img src="images/submissions_thru/BlackEnso-Torei-Enji_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/blue_14x18.jpg" 
+		    title="Ahsante Bean"><img src="images/submissions_thru/blue_14x18_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Concentration1.jpg" 
+		    title="Jared Rosen"><img src="images/submissions_thru/Concentration1_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Clavicle_and_Scapula.jpg" 
+		    title="Emi Nietfeld"><img src="images/submissions_thru/Clavicle_and_Scapula_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Concentration12.jpg" 
+		    title="Jared Rosen"><img src="images/submissions_thru/Concentration12_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/DSC_0114.JPG" 
+		    title="Chris Holthouse"><img src="images/submissions_thru/DSC_0114_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/DSC_0527.JPG" 
+		    title="Emily Savage"><img src="images/submissions_thru/DSC_0527_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/DSCN0015.JPG" 
+		    title="Monica Palos"><img src="images/submissions_thru/DSCN0015_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/DSCN0017.JPG" 
+		    title="Monica Palos"><img src="images/submissions_thru/DSCN0017_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Face.jpg" 
+		    title="Ethan Pierce"><img src="images/submissions_thru/Face_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Fireball.jpg" 
+		    title="Ivana Vukov"><img src="images/submissions_thru/Fireball_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/hannah.jpg" 
+		    title="Sara Joe Wolansky"><img src="images/submissions_thru/hannah_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/horse_drawing.jpg" 
+		    title="Pili Mayora"><img src="images/submissions_thru/horse_drawing_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_0159-Version_2.jpg" 
+		    title="Isaac Dayno"><img src="images/submissions_thru/IMG_0159-Version_2_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_0197_2.jpeg" 
+		    title="Alexander Jaffe"><img src="images/submissions_thru/IMG_0197_2_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_0443.JPG" 
+		    title="Isaac Dayno"><img src="images/submissions_thru/IMG_0443_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_1985.jpeg" 
+		    title="Alexander Jaffe"><img src="images/submissions_thru/IMG_1985_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_2235.JPG" 
+		    title="Alex Palmer"><img src="images/submissions_thru/IMG_2235_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_2759.JPG" 
+		    title="Jessica Walter"><img src="images/submissions_thru/IMG_2759_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_3713.JPG" 
+		    title="Sara Sophia Lytle"><img src="images/submissions_thru/IMG_3713_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/IMG_8776.JPG" 
+		    title="Emma Framson"><img src="images/submissions_thru/IMG_8776_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/joy_of_waiting.jpg" 
+		    title="Abdul Hakkim"><img src="images/submissions_thru/joy_of_waiting_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/last_supper.jpg" 
+		    title="Helena Hayoun Won"><img src="images/submissions_thru/last_supper_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Marie_I.JPG" 
+		    title="James Danner"><img src="images/submissions_thru/Marie_I_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Myopia.jpg" 
+		    title="George Pocheptsov"><img src="images/submissions_thru/Myopia_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Natures_Paintbrush_II-V.jpg" 
+		    title="Honor Wilkinson"><img src="images/submissions_thru/Natures_Paintbrush_II-V_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/ned_submission.png" 
+		    title="Ned Whitman"><img src="images/submissions_thru/ned_submission_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/obsession.jpg" 
+		    title="Helena Hayoun Won"><img src="images/submissions_thru/obsession_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/P1010619.JPG" 
+		    title="Julia Egarr"><img src="images/submissions_thru/P1010619_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/photo.JPG" 
+		    title="Melissa Oppenheim"><img src="images/submissions_thru/photo_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/photo(1).JPG" 
+		    title="Amy Sun"><img src="images/submissions_thru/photo(1)_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Picture_001.jpg" 
+		    title="Kathrin Agard"><img src="images/submissions_thru/Picture_001_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/primavera.jpg" 
+		    title="George Pocheptsov"><img src="images/submissions_thru/primavera_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/selfportrait.jpg" 
+		    title="Kathryan Ryan"><img src="images/submissions_thru/selfportrait_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Seoul_City3.jpg" 
+		    title="Helena Hayoun Won"><img src="images/submissions_thru/Seoul_City3_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/Skeleton.jpg" 
+		    title="Allysa Adams"><img src="images/submissions_thru/Skeleton_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/springinparis.jpg" 
+		    title="George Pocheptsov"><img src="images/submissions_thru/springinparis_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/submission_topczewska.jpeg" 
+		    title="Ola Topcsewska"><img src="images/submissions_thru/submission_topczewska_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/tangle_of_thorns.jpeg" 
+		    title="Nic Brickley"><img src="images/submissions_thru/tangle_of_thorns_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		     <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/wall_art_3.jpg" 
+		    title="Whitney Shaw"><img src="images/submissions_thru/wall_art_3_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		     <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/WhiteEnso-Torei-Enji.jpg" 
+		    title="Engrid Verona Pierre"><img src="images/submissions_thru/WhiteEnso-Torei-Enji_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		     <a class="grouped_elements" rel="group1" class="gallery_photo" href="images/submissions_thru/107.jpg" 
+		    title="Annie LaVign"><img src="images/submissions_thru/107_small.jpg" alt="" class="gallery_photo" /></a>
+		    
+		    
+	    </div>
+    <p class="clear"></p>
+    
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+</body>
+</html>

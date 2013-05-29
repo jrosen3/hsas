@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Testimonials - Harvard Student Art Show</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<script>
+		$(window).load(function() {    
+
+			var theWindow        = $(window),
+	    	$bg              = $("#bg"),
+	    	aspectRatio      = $bg.width() / $bg.height();
+
+			function resizeBg() {
+	
+				if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+			    	$bg.removeClass().addClass('bgheight');
+				} else {
+			    	$bg.removeClass().addClass('bgwidth');
+				}
+	
+			}
+	
+			theWindow.resize(function() {
+				resizeBg();
+			}).trigger("resize");
+	
+		});
+	
+	
+	</script>
+</head>
+
+<body>
+
+<div id="container">
+
+	<div id="logo"><img src="images/hsas_logo.png" /></div>
+
+	<img src="images/background_image.png" id="bg" alt="">
+	
+	<h2><center>the fifth annual <span class="red_harvard">harvard</span> student art show</center></h2>
+
+
+    <div id="nav">
+    
+        <ul id="tabs">
+            <li id="home"><a href="index.html">home</a></li>
+            <li><a href="about.html" id="about">about</a></li>
+            <li id="testimonials"><a href="testimonials.html" class="selected">testimonials</a></li>
+            <li id="gallery"><a href="gallery.html">gallery</a></li>
+            <li id="contact"><a href="contact.html" id="contact">contact</a></li>
+          
+        </ul>
+        
+    </div>
+    
+    <div id="main_content">
+    
+        <div class="left">
+            <img src="images/open_quote.png"></img>        
+        </div>
+        
+        <p>The Harvard Student Art Show is a celebration of a community of artists &#8211; printmakers, photographers, painters, ceramicists, and many others &#8211; people who dedicate a large portion of their life to creative expression through art making. The Student Art Show puts their work front and center. It establishes a beachhead for studio artists during the busiest arts weekend of the year at Harvard. Along with the "must see" senior thesis show in the Department of Visual and Environmental Studies, this show makes a statement for the centrality of art making at Harvard.<span class="right">
+            <img src="images/close_quote.png"></img>
+        </span>
+        </p><div class="clear"></div>
+        
+        <p class="source">Jack Megan, Director of the Office for the Arts at Harvard</p>
+        
+        <br/>
+        
+        <div class="left">
+            <img src="images/open_quote.png"></img>        
+        </div>
+        
+        <p>Harvard students comprise a remarkable group of young men and women at a critical point in their lives. They are a talented group, and what a time and place to create art. As a professional artist, I find a freshness, creativity and artistic sophistication in the Harvard Student Art Show that is rare in student exhibitions.</p>
+
+        <p>To produce art for the Harvard Student Art Show means these student artists must take time to create. These are not class assignments. These are not pieces created for a commercial gallery. The motivation to produce art for the Harvard Student Art Show comes solely from within. That inner drive to make art is evident in the pieces on display, and is what makes the Harvard Student Art Show so unique. It is why I attend.</p>
+
+        <p>I am always struck by the talented pool of artists that contribute their work to the Harvard Student Art Show. At the Harvard Student Art Show, you might find a seascape created by a future Pulitzer Prize winning author, a photograph captured by a future member of Congress, a powerful abstract painting by future economist, or a pensive self portrait by a future Nobel laureate. Not all Harvard students achieve such fame and only a few will choose art as a career. But in all the work of the Harvard Student Art Show I see a commitment and passion that reflect the kind of place Harvard is.
+        <span class="right">
+            <img src="images/close_quote.png"></img>
+        </span>
+        </p><div class="clear"></div>
+        
+        <p class="source">Steve Coit, Harvard '72, Artist</p>
+        
+        
+        <br/>
+        
+        <div class="left">
+            <img src="images/open_quote.png"></img>        
+        </div>
+        
+        <p>Art these days is, among other things, experiment, uncertainty, intelligence, and commitment. When it works, it can alter our understanding of the worlds we inhabit and what they could be.</p>
+
+        <p>Right now, guided by the vision articulated by the Task Force on the Arts, many at Harvard are working toward making the arts more central to our intellectual life. With the support of the President and generous donors, arts practice is reaching into new areas of the curriculum, including Freshman Seminars and General Education courses. Members of the faculty are folding the arts into scholarly inquiry at all levels in surprising and promising ways. To give but one example, the recently launched Sensory Ethnography Lab combines aesthetics and ethnography to take both anthropological inquiry and media practice in new directions. The people behind HarvardArts, a new campus-wide arts portal featuring a centralized calendar, keep our community informed about the rich array of campus events and opportunities in the arts. Those looking further ahead eagerly anticipate 2013, when a renovated Harvard Art Museum will begin integrating its collections more deeply into the undergraduate and graduate curricula than ever before.</p>
+
+        <p>In the midst of this broad initiative at Harvard, the Harvard Student Art Show is an essential reminder of the extraordinary art production that takes place outside our curriculum and beyond the scope of our calendars. By giving students an opportunity to exhibit and sell their work, the show puts the restless creativity and far-reaching talents of our students on display. Here, we find the ingenuity and verve that have kept the arts vital at Harvard and will allow them to flourish in the future. Here, we find the grassroots counterpart to the Task Force's institutional vision.</p>
+
+        <p>The Harvard Student Art Show is also an offering to our community in a more intimate and particular way. To contribute a work is to risk the response of visitors. Will it stir them? Disturb them? Amuse them? Bore them? Thrill them? In the uncertain space opened by these encounters, a great generosity resides. In the modern period, art has often thrived in the interstices between amateurism and professionalism, between private amusement and public market. The Harvard Student Art Show allows students to venture into that unsettled state and spark new conversations. What will we find in the work that the participating students have given us a chance to see? Their liberal risk is our unexpected experience. I, for one, am grateful.
+        
+        <span class="right">
+            <img src="images/close_quote.png"></img>
+        </span>
+        </p><div class="clear"></div>
+        
+        <p class="source">Robin Kelsey<br/>Shirley Carter Burden Professor of Photography<br/>History of Art and Architecture Chair<br/> Harvard University Committee on the Arts</p>
+    
+    </div>
+    <div class="clear"></div>
+
+</div>
+
+</body>
+</html>

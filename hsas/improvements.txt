@@ -1,0 +1,8 @@
+Possible Improvemnts:
+
+- javascript email validation
+- 10 digit phone number check
+- match boxes on from to css of other pages
+- php upload file check
+- form alignment of boxes, fields
+- notes as popups along side form 
