@@ -23,13 +23,7 @@
 
 		<div id="container">
 			<div id="header">
-				<div id="logo">
-					<img src="img/misc/logo.png" alt="hsas logo"/>
-				</div>
-
-				<div id="title">
-					<h2>the fifth annual <span class="crimson">harvard</span> student art show</h2>
-				</div>
+				<img src="img/misc/test_header.png" alt="hsas header" width="100%"/>
 			</div>
 
 			<div id="nav">
