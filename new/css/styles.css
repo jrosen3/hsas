@@ -5,7 +5,7 @@
 /* * {padding: 0;margin: 0} */
 body{
 	background-color: #acacac;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1{
@@ -17,7 +17,6 @@ h2{
 	color: #e8e8e8;
 	letter-spacing: 6px;
 	word-spacing: 6px;
-	margin: 10px 0px 10px 5px;
 	font-size: 24px;
 }
 
@@ -43,6 +42,13 @@ h3{
 
 #title{
 	text-align: center;
+	margin: 10px 0px;
+}
+
+#slideshow{
+	width: 85%;
+	height: 1000px;
+	margin: 10px auto 0px auto;
 }
 
 /* 
@@ -53,7 +59,8 @@ h3{
 }
 
 
-/*
+/*************************
+ *
  * nav
  */
 #nav{
@@ -82,9 +89,12 @@ h3{
     color: #e8e8e8;
     letter-spacing: 2px;
     font-size: 18px;
+    font-weight: 100;
 	text-decoration: none;
 }
 
 #tabs li a:hover{
 	color: #a61d31;
 }
+/***********************/
+
