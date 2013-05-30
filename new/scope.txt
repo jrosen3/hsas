@@ -14,6 +14,7 @@ memebers
 gallery
 	thumnail for each year
 		past show's images
+	//see pictures from past shows on our flickr
 
 support
 	donate on paypal
@@ -21,3 +22,9 @@ support
 contact
 	sign up for an email list
 	send us a question
+
+footer
+	copyrite
+	facebook
+	// instagram
+	// flickr
