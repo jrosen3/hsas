@@ -29,17 +29,19 @@
 				<div id="title">
 					<h2>the fifth annual <span class="crimson">harvard</span> student art show</h2>
 				</div>
-
-				<div id="nav">
-					<ul id="tabs">
-						<li><a href="index.php">home</a></li>
-						<li><a href="about.php">about</a></li>
-						<li><a href="testimonials.php">testimonials</a></li>
-						<li><a href="gallery.php">gallery</a></li>
-						<li><a href="contact.php">contact</a></li>
-        </ul>
-				</div>
 			</div>
+
+			<div id="nav">
+				<ul id="tabs">
+					<li><a href="index.php">welcome</a></li>
+					<li><a href="about.php">about</a></li>
+					<li><a href="board.php">board</a></li>
+					<li><a href="gallery.php">gallery</a></li>
+					<li><a href="support.php">support</a></li>
+					<li><a href="contact.php">contact</a></li>
+				</ul>
+			</div>
+		<!-- closed in footer.php -->	
 	<!-- body closed in footer.php -->
 <!-- html closed in footer.php -->
 

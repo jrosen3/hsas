@@ -3,7 +3,7 @@ welcome
 
 about
 	about
-	history
+	testimonials
 
 memebers
 	headshot
