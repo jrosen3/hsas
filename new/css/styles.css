@@ -1,0 +1,45 @@
+/* 
+ * html tags
+ */
+body{
+	background-color: gray;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+
+}
+
+h2{
+	font-weight: 100;
+	color: #e8e8e8;
+	letter-spacing: 6px;
+	word-spacing: 6px;
+	margin: 10px 0px 10px 5px;
+	font-size: 24px;
+}
+
+h3{
+
+}
+
+
+/* 
+ * ids
+ */
+#logo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+
+#title{
+	text-align: center;
+}
+
+/* 
+ * classes
+ */
+.crimson{
+	color: #a61d31;
+}

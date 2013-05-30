@@ -1,0 +1,23 @@
+welcome
+	random slide show
+
+about
+	about
+	history
+
+memebers
+	headshot
+		position
+		concentration
+		year
+
+gallery
+	thumnail for each year
+		past show's images
+
+support
+	donate on paypal
+
+contact
+	sign up for an email list
+	send us a question
