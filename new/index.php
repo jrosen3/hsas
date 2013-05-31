@@ -20,6 +20,11 @@
 					random: 1,
 				});
 			}
+
+
+			$(window).resize(function (){
+      			//alert('Resize...');
+			});
 		</script>
 
 		<div id="slideshow"></div>

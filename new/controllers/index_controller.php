@@ -13,7 +13,7 @@
 			foreach($imgs as $img)
 			{
 				$name = get_name($img);
-				$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" width="100%" height=""/>';
+				$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '"width="100%"/>';
 			}
 		}
 	}
@@ -39,7 +39,7 @@
 				$name[$i] = " ";
 				$counter++;
 			}
-		} 
+		}
 		$name = implode("", $name);
 		return $name;
 	}

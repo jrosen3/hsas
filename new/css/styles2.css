@@ -8,7 +8,8 @@
 }
 
 body{
-	background-color: #acacac;
+	/*background-color: #acacac;*/
+	background-color: black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -42,8 +43,14 @@ h3{
 }
 
 #footer{
-	background-color: black;
 	width: 100%;
+	background-color: black;
+	margin: -3px 0px 0px 0px;
+	padding: 25px;
+	color: white;
+	letter-spacing: 2px;
+    font-size: 10px;
+    font-weight: 100;
 }
 
 #slideshow{
@@ -56,6 +63,7 @@ h3{
 .crimson{
 	color: #a61d31;
 }
+
 
 
 /*************************
