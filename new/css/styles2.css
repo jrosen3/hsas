@@ -57,6 +57,11 @@ h3{
 	bottom: 0px;
 }
 
+#logo{
+	width: 75%;
+	display: block;
+	margin: 5% auto;
+}
 
 #slideshow{
 	min-width: 100%;

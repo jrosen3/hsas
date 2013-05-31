@@ -5,6 +5,11 @@ about
 	about
 	testimonials
 
+show
+	count down until next show
+	show information
+	sign up for email
+
 memebers
 	headshot
 		position
