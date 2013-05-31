@@ -12,6 +12,8 @@
 		
 		<script src="js/idle-timer.min.js"></script> <!-- http://www.paulirish.com/2009/jquery-idletimer-plugin/ -->
 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.3/jquery.backstretch.min.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="css/styles2.css">
 	</head>
 

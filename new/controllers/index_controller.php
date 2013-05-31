@@ -13,7 +13,7 @@
 			foreach($imgs as $img)
 			{
 				$name = get_name($img);
-				$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '"width="100%"/>';
+				$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" width="100%"/>';
 			}
 		}
 	}
@@ -24,7 +24,8 @@
 	{
 		$name;
 		$counter = 0;
-		for($i = 0; $i < strlen($file); $i++)
+		$n = strlen($file);
+		for($i = 0; $i < $n; $i++)
 		{
 			if((ctype_alpha($file[$i])) || ($file[$i] == " "))
 			{

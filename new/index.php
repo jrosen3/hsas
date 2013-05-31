@@ -18,15 +18,19 @@
 					speed: 1000, 
 					timeout: 3000,
 					random: 1,
+					/*containerResize: 0,
+					fit: 1*/
+					slideResize: 1,
 				});
 			}
 
 
-			$(window).resize(function (){
-      			//alert('Resize...');
-			});
+			/*$(window).resize(function (){
+				alert("TEST");
+			});*/
 		</script>
 
 		<div id="slideshow"></div>
+
 	<!-- and here -->
 <?php include "footer.php" ?>
