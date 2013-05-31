@@ -25,8 +25,7 @@
 						$('#caption').html(this.alt);
 					}
 					/*before: function(){
-						// if verical
-						// if horizontal
+
 					}*/
 				});
 			}
@@ -45,15 +44,17 @@
 				//$('body').css('cursor', 'default');
 			});
 
-
-			/*$(window).resize(function (){
-				alert("TEST");
+			/*$(window).resize(function(){
+				$('#slideshow').css({
+					position:'absolute',
+					//left: ($(window).width() - $('.className').outerWidth())/2,
+					top: ($(window).height() - $('#slideshow').outerHeight())/2
+				});
 			});*/
 		</script>
-		<div id="box">
+
 		<div id="slideshow"></div>
-		<p id="caption"></p>
-		</div>
+		<!--<p id="caption"></p>-->
 
 	<!-- and here -->
 <?php include "footer.php" ?>

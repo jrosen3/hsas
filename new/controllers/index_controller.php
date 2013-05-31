@@ -17,7 +17,8 @@
 				$horv = (getimagesize($rel));
 				if($horv[0] > $horv[1])
 				{
-					$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" class="ssi" />';
+					//$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" class="ssi" />';
+					$array .= "<figure><img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '"/><figcaption>' . $name . "</figcaption></figure>";
 				}
 			}
 		}

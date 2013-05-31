@@ -35,7 +35,7 @@ h3{
  */
 #container{
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 }
 
 #header{
@@ -57,25 +57,31 @@ h3{
 	bottom: 0px;
 }
 
-/*#box{
-	width: 100%;
-}*/
 
 #slideshow{
-	width: 100%;
+	min-width: 100%;
+	height: auto;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: -1;
 }
 
-#caption{
+#slideshow figure{
+	width: 100%;
+}
+
+#slideshow figure img{
+	width: 100% !important;
+}
+
+#slideshow figure figcaption{
 	font-size: 18px;
 	font-weight: 100;
-	position: fixed;
-	bottom:1em;
-	right: 1em;
-	z-index: 0;
+	color: gray;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: -30px;
 }
 
 /* 
@@ -85,10 +91,9 @@ h3{
 	color: #a61d31;
 }
 
-.ssi{
+/*.ssi{
 	width: 100% !important;
-	height: 100% !important;
-}
+}*/
 
 
 /*************************
