@@ -39,6 +39,8 @@ h3{
 }
 
 #header{
+	position: relative;
+	z-index: 1;
 
 }
 
@@ -48,12 +50,32 @@ h3{
 	padding: 25px;
 	color: white;
 	letter-spacing: 2px;
-    font-size: 10px;
-    font-weight: 100;
+	font-size: 10px;
+	font-weight: 100;
+    position: fixed;
+	z-index: 1;
+	bottom: 0px;
 }
+
+/*#box{
+	width: 100%;
+}*/
 
 #slideshow{
 	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#caption{
+	font-size: 18px;
+	font-weight: 100;
+	position: fixed;
+	bottom:1em;
+	right: 1em;
+	z-index: 0;
 }
 
 /* 
@@ -63,6 +85,10 @@ h3{
 	color: #a61d31;
 }
 
+.ssi{
+	width: 100% !important;
+	height: 100% !important;
+}
 
 
 /*************************
@@ -70,6 +96,8 @@ h3{
  * nav
  */
 #nav{
+	position: relative;
+	z-index: 1;
 	background-color: gray;
 	margin: -3px 0px 0px 0px;
     padding: 0px 0px 3px 0px;

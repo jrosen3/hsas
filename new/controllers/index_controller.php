@@ -13,7 +13,12 @@
 			foreach($imgs as $img)
 			{
 				$name = get_name($img);
-				$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" width="100%"/>';
+				$rel = $dir . "/" . $year . "/" . $img;
+				$horv = (getimagesize($rel));
+				if($horv[0] > $horv[1])
+				{
+					$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" class="ssi" />';
+				}
 			}
 		}
 	}

@@ -17,20 +17,43 @@
 					fx: 'fade',
 					speed: 1000, 
 					timeout: 3000,
-					random: 1,
-					/*containerResize: 0,
-					fit: 1*/
-					slideResize: 1,
+					random: true,
+					containerResize: false,
+					slideResize: false,
+					fit: true,
+					after: function(){
+						$('#caption').html(this.alt);
+					}
+					/*before: function(){
+						// if verical
+						// if horizontal
+					}*/
 				});
 			}
+
+			$.idleTimer(2000);
+
+			$(document).bind("idle.idleTimer", function(){
+				// function you want to fire when the user goes idle
+				$(".fade").fadeOut();
+				//$('body').css('cursor', 'none');
+			});
+
+			$(document).bind("active.idleTimer", function(){
+				// function you want to fire when the user becomes active again
+				$(".fade").fadeIn();
+				//$('body').css('cursor', 'default');
+			});
 
 
 			/*$(window).resize(function (){
 				alert("TEST");
 			});*/
 		</script>
-
+		<div id="box">
 		<div id="slideshow"></div>
+		<p id="caption"></p>
+		</div>
 
 	<!-- and here -->
 <?php include "footer.php" ?>

@@ -24,14 +24,15 @@
 		</script>
 
 		<div id="container">
-			<div id="header">
+			<div id="header" class="fade">
 				<img src="img/misc/test_header.png" alt="hsas header" width="100%"/>
 			</div>
 
-			<div id="nav">
+			<div id="nav" class="fade">
 				<ul id="tabs">
 					<li><a href="index.php">welcome</a></li>
 					<li><a href="about.php">about</a></li>
+					<li><a href="show.php">show</a></li>
 					<li><a href="board.php">board</a></li>
 					<li><a href="gallery.php">gallery</a></li>
 					<li><a href="support.php">support</a></li>
