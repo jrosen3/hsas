@@ -1,8 +1,12 @@
 <?php
+	$main_img = '<figure><img src="img/misc/main_img.png" alt="hsas"/></figure>';
 	$array;
+	$echo = $main_img;
 	$dir = "../img";
 	$years = scandir($dir);
 	$years = array_slice($years, 3);
+	$counter_1 = 0;
+	$counter_2 = 0;
 	foreach($years as $year)
 	{
 		if(is_numeric($year))
@@ -18,12 +22,23 @@
 				if($horv[0] > $horv[1])
 				{
 					//$array .= "<img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '" class="ssi" />';
-					$array .= "<figure><img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '"/><figcaption>' . $name . "</figcaption></figure>";
+					$array[$counter_1] = "<figure><img src=img" . "/" . $year . "/" . $img . ' alt="' . $name . '"/><figcaption>' . $name . "</figcaption></figure>";
+					$counter_1++;
 				}
 			}
 		}
 	}
-	echo "$array";
+	shuffle($array);
+	foreach($array as $fig)
+	{
+		$echo .= $fig;
+		$counter_2++;
+		if(($counter_2 % 3 == 0) && ($counter_2 != 0))
+		{
+			$echo .= $main_img;
+		}
+	}
+	echo "$echo";
 
 	// parses a file (images) name a and retruns the artists name
 	function get_name($file)

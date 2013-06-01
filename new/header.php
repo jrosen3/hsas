@@ -7,13 +7,12 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
 		<script src="js/jquery.cycle.all.js"></script> <!--http://jquery.malsup.com/cycle/adv.html-->
-		
 		<script src="js/jquery.easing.min.js"></script>
-		
 		<script src="js/idle-timer.min.js"></script> <!-- http://www.paulirish.com/2009/jquery-idletimer-plugin/ -->
 
-		<link rel="stylesheet" type="text/css" href="css/styles2.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/styles_nav.css">
+		<link rel="stylesheet" type="text/css" href="css/styles_slideshow.css">
 	</head>
 
 	<body>
@@ -23,21 +22,6 @@
 		</script>
 
 		<div id="container">
-			<!--<div id="header" class="fade">
-				<img src="img/misc/test_header.png" alt="hsas header" width="100%"/>
-			</div>-->
-
-			<!--<div id="nav" class="fade">
-				<ul id="tabs">
-					<li><a href="index.php"><img src="img/misc/logo.png" alt="hsas logo"/></a></li>
-					<li><a href="about.php">about</a></li>
-					<li><a href="show.php">show</a></li>
-					<li><a href="board.php">board</a></li>
-					<li><a href="gallery.php">gallery</a></li>
-					<li><a href="support.php">support</a></li>
-					<li><a href="contact.php">contact</a></li>
-				</ul>
-			</div>-->
 
 			<nav id="tabs" class="fade">
 				<a href="index.php"><img src="img/misc/logo.png" alt="hsas logo"/></a>
