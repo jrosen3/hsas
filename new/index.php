@@ -2,7 +2,7 @@
 	<!-- put the page between here -->
 		<script>
 			$(document).ready(function() {
-				$(".fade").hide();
+				//$(".fade").hide();
 				$.ajax({
 					type: 'POST',
 					url: 'controllers/index_controller.php',
@@ -26,12 +26,12 @@
 				});
 			}
 
-			setTimeout(function(){ 
+			/*setTimeout(function(){ 
 				$("#logo").fadeOut(1000);
 				}
-				, 1500);
+				, 1500);*/
 
-			$.idleTimer(1500);
+			/*$.idleTimer(1500);
 
 			$(document).bind("idle.idleTimer", function(){
 				// function you want to fire when the user goes idle
@@ -44,7 +44,7 @@
 				$(".fade").show()
 				$(".fade").fadeIn();
 				//$('body').css('cursor', 'default');
-			});
+			});*/
 
 			
 /*
@@ -58,7 +58,7 @@
 		</script>
 
 		<div id="slideshow"></div>
-		<img id="logo" src="img/misc/logo.png" alt="hsas logo"/>
+		<!--<img id="logo" src="img/misc/logo.png" alt="hsas logo"/>-->
 
 	<!-- and here -->
 <?php include "footer.php" ?>

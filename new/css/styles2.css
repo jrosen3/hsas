@@ -9,7 +9,7 @@
 
 body{
 	/*background-color: #acacac;*/
-	background-color: gray;
+	background-color: white;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -34,8 +34,8 @@ h3{
  * ids
  */
 #container{
-	width: 100%;
-	/*height: 100%;*/
+	width: 980px;
+	margin: 0px auto;
 }
 
 #header{
@@ -45,16 +45,15 @@ h3{
 }
 
 #footer{
-	width: 100%;
-	background-color: black;
-	padding: 25px;
+	width: 960px;
+	background-color: gray;
+	padding: 10px;
 	color: white;
 	letter-spacing: 2px;
 	font-size: 10px;
 	font-weight: 100;
-    position: fixed;
-	z-index: 1;
-	bottom: 0px;
+	position: fixed;
+	top: 653px;
 }
 
 #logo{
@@ -64,20 +63,20 @@ h3{
 }
 
 #slideshow{
-	min-width: 100%;
-	height: auto;
+	width: 980px;
+	height: 653px;
 	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: -1;
+	top: 0 !important;
+	z-index: 0;
 }
 
 #slideshow figure{
 	width: 100%;
+	height: 100%;
 }
 
 #slideshow figure img{
-	width: 100% !important;
+	height: 100%;
 }
 
 #slideshow figure figcaption{
@@ -88,6 +87,20 @@ h3{
 	padding-right: 10px;
 	margin-top: -30px;
 }
+/*
+#board figure{
+	width: 100px;
+	height: 200px;
+}
+
+#board figure figcaption p{
+	width: 100px;
+	height: 100px;
+	margin-top: -60px;
+	font-size: 12px;
+	font-weight: 100px;
+	background-color: black;
+}*/
 
 /* 
  * classes
@@ -105,35 +118,54 @@ h3{
  *
  * nav
  */
-#nav{
-	position: relative;
+/*#nav{
+	background-color: orange;
+	position: fixed;
+	top: 25px;
+	height: 50px;
+	width: 784px;
+	margin: 0px 98px;
 	z-index: 1;
-	background-color: gray;
-	margin: -3px 0px 0px 0px;
-    padding: 0px 0px 3px 0px;
-}
-
+	border-radius: 15px;
+}*/
+/*
 #tabs{
 	list-style: none;
 	text-align: center;
     /***** do not mess with what is above here *****/
+    /*background-color: orange;*/
+	/*position: fixed;
+	top: 25px;
+	margin: 0px 0px;
+	z-index: 1;
+	border-radius: 15px;
 }
 #tabs li{
-	display: inline;
-    /***** do not mess with what is above here *****/
-    padding: 0px 10px;
+	display: inline-block;*/
+	/***** do not mess with what is above here *****/
+	/*padding: 0px 10px;
+	border-right: 1px solid black;
+	background-color: orange;
+	width: 100px;
+	height: 36px;
 }
-#tabs a{
+#tabs a{*/
     /***** do not mess with what is above here *****/
-    color: #e8e8e8;
+    /*color: #e8e8e8;
     letter-spacing: 2px;
     font-size: 18px;
     font-weight: 100;
 	text-decoration: none;
+
+}
+
+#tabs li a img{
+	height: 30px;
+	margin-top: 3px;
 }
 
 #tabs li a:hover{
 	color: #a61d31;
-}
+}*/
 /***********************/
 

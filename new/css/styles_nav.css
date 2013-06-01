@@ -1,0 +1,36 @@
+nav{
+	text-align: center;
+	position: relative;
+	top: 25px;
+	z-index: 1;
+}
+nav a{
+	display: inline-block;
+	vertical-align: middle;
+	height: 36px;
+	width: 100px;
+	/* look */
+	background-color: gray;
+	color: #e8e8e8;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: 100;
+	text-decoration: none;
+	margin: -5px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+nav a p{
+	margin-top: 6px;
+}
+
+nav a img{
+	height: 30px;
+	margin-top: 3px;
+}
+
+nav a:hover{
+	background-color: #a61d31;
+}*/
+
