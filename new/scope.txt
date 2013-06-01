@@ -1,5 +1,13 @@
 welcome
 	random slide show
+	bottom box
+		sponsor
+		join
+	footer
+		copyrite
+		facebook
+		// instagram
+		// flickr
 
 about
 	about
@@ -15,21 +23,18 @@ memebers
 		position
 		concentration
 		year
+	join
 
 gallery
 	thumnail for each year
 		past show's images
 	//see pictures from past shows on our flickr
 
-support
+donate
 	donate on paypal
+	sponsors
 
 contact
 	sign up for an email list
 	send us a question
-
-footer
-	copyrite
-	facebook
-	// instagram
-	// flickr
+	

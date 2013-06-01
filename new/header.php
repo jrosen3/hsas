@@ -29,7 +29,7 @@
 				<a href="show.php"><p>show</p></a>
 				<a href="board.php"><p>board</p></a>
 				<a href="gallery.php"><p>gallery</p></a>
-				<a href="support.php"><p>support</p></a>
+				<a href="support.php"><p>donate</p></a>
 				<a href="contact.php"><p>contact</p></a>
 			</nav>
 		<!-- closed in footer.php -->	

@@ -1,12 +1,12 @@
 #slideshow{
-	width: 980px;
+	width: 978px;
 	height: 653px;
 	position: absolute;
-	top: 0px !important;
-	/*margin-top: -30px;*/
+	top: -1px !important;
 	z-index: 0;
 	overflow: hidden;
 	background-color: gray;
+	border: 1px solid white;
 }
 
 #slideshow figure{
