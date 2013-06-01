@@ -1,8 +1,9 @@
 #slideshow{
 	width: 980px;
 	height: 653px;
-	position: relative;
-	top: 0 !important;
+	position: absolute;
+	top: 0px !important;
+	/*margin-top: -30px;*/
 	z-index: 0;
 	overflow: hidden;
 	background-color: gray;
@@ -15,6 +16,7 @@
 
 #slideshow figure img{
 	width: 100%;
+	min-height: 100% !important;
 }
 
 #slideshow figure figcaption{

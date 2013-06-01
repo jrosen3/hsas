@@ -29,13 +29,16 @@
 
 			$(document).bind("idle.idleTimer", function(){
 				// function you want to fire when the user goes idle
+				//window.scrollTo(0, 0);
 				$(".fade").fadeOut();
+				$("body").css("background-color", "black");
 				//$('body').css('cursor', 'none');
 			});
 
 			$(document).bind("active.idleTimer", function(){
 				// function you want to fire when the user becomes active again
 				$(".fade").fadeIn();
+				$("body").css("background-color", "white");
 				//$('body').css('cursor', 'default');
 			});
 
@@ -52,9 +55,9 @@
 		</script>
 
 		<div id="slideshow"></div>
-		<div class="bottom_box"></div>
-		<div class="bottom_box" id="marg"></div>
-		<div class="bottom_box"></div>
+		<div class="bottom_box fade"></div>
+		<div class="bottom_box fade" id="marg"></div>
+		<div class="bottom_box fade"></div>
 
 	<!-- and here -->
 <?php include "footer.php" ?>
