@@ -3,11 +3,31 @@ welcome
 	bottom box
 		sponsor
 		join
+	social
+		facebook
+		// flickr
+		// instagram
+	site map
+		home
+		about
+			us
+			testimonials
+		board
+		gallery
+			2009
+			2010
+			2011
+			2012
+		donate
+			sponsors
+			donate
+		show
+		artists
+			submit
+			forms
 	footer
 		copyrite
-		facebook
-		// instagram
-		// flickr
+	
 
 about
 	about

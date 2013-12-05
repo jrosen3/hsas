@@ -8,7 +8,7 @@
 					success: function(data) {
 						document.getElementById('slideshow').innerHTML = data;
 						start_slideshow();
-	    			}
+					}
 				});
 			})
 
