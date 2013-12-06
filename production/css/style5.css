@@ -37,6 +37,7 @@ body  {
 	-webkit-backface-visibility: hidden;
 	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
 	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+	z-index: 100;
 }
 
 .bt-menu.bt-menu-open {
@@ -45,6 +46,7 @@ body  {
 	background-color: rgba(0,0,0,0.3);
 	-webkit-transition: border-width 0.3s, background-color 0.3s;
 	transition: border-width 0.3s, background-color 0.3s;
+	z-index: 100;
 }
 
 .bt-overlay {
@@ -58,7 +60,7 @@ body  {
 
 .bt-menu-trigger {
 	position: fixed;
-	top: 40px;
+	/*top: ; in whobar.js*/
 	left: 20px;
 	z-index: 100;
 	display: block;
@@ -149,7 +151,7 @@ body  {
 }
 
 .bt-menu ul:first-of-type {
-	top: 100px;
+	/*top: 100px; in woahbar.js*/
 	left: 0;
 }
 
