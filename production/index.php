@@ -9,32 +9,45 @@
 		<meta name="keywords" content="art, harvard, hsas" />
 		<meta name="author" content="Jared Rosen" />
 		<link rel="shortcut icon" href="../favicon.ico">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/icons.css" />
 		<link rel="stylesheet" type="text/css" href="css/style5.css" />
+
 		<link rel="stylesheet" type="text/css" href="css/ss.css" />
+		<link rel="stylesheet" type="text/css" href="css/board.css" />
+		<link rel="stylesheet" type="text/css" href="css/woahbar.css" />
+
+		<script src="js/switching.js"></script>
+		<script src="js/woahbar.js"></script>
+
 		<script src="js/modernizr.custom.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	<body>
+		<div class="woahbar" style="display:none">
+			<span>
+				We are now accepting submitions for the 5th annual Harvard Student Art Show. <a class="woahbar-link" href="#">Submit Here!</a>
+			</span>
+			<a class="close-notify" onclick="woahbar_hide();"><img class="woahbar-up-arrow" src="img/woahbar-up-arrow.png"></a>
+		</div>
+		<div class="woahbar-stub" style="display:none">
+			<a class="show-notify" onclick="woahbar_show();"><img class="woahbar-down-arrow" src="img/woahbar-down-arrow.png"></a>
+		</div>
+		
 		<div class="content">
-			<ul class="cb-slideshow">
-	   			<li><span>Image 01</span><div><h3>Jared</h3></div></li>
-	   			<li><span>Image 02</span><div><h3>Rosen</h3></div></li>
-	   			<li><span>Image 03</span><div><h3>Was</h3></div></li>
-	   			<li><span>Image 04</span><div><h3>Here</h3></div></li>
-	   			<li><span>Image 05</span><div><h3></h3></div></li>
-	   			<li><span>Image 06</span><div><h3></h3></div></li>
-	   		</ul>
-	   		<div id="content-box">We are the harvard student art show and I need to put way more filler text. Lorem ipsum dolor sit amet, delenit facilisis eos an, cibo errem ea eam. In eos vero audiam evertitur, ea etiam mollis sed. Qui in dico mutat populo, tempor possim blandit eam in. Magna pericula in vim. Odio molestie adipisci ad pri, no erant antiopam est, soluta rationibus ex vim.Te mea quodsi theophrastus, id mel ignota persecuti. Mei id mucius ceteros imperdiet. Duis harum laboramus his ad. Est fuisset singulis et, vix ne eirmod vituperatoribus, clita veniam disputando an mei. Duo porro facilis in. Eius virtute concludaturque in qui, utinam munere vel ea.Nihil altera usu at, diam aeterno has no. Id vis melius imperdiet argumentum. Idque consulatu intellegam eu sed. Ex vel doctus dignissim, ei pro deleniti concludaturque. Unum patrioque ut sed. No quo paulo quidam facilis.</div>
+			<?php include('home.php') ?>
+			<?php include('board.php') ?>
 	   	</div>
 		<div class="container">
 			<nav id="bt-menu" class="bt-menu">
-				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+				<a class="bt-menu-trigger"><span>Menu</span></a>
 				<ul>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Work</a></li>
+					<li><a id="home-btn">Home</a></li>
+					<li><a id="board-btn">Board</a></li>
 					<li><a href="#">Clients</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Contact</a></li>
@@ -48,6 +61,8 @@
 				</ul>
 			</nav>
 		</div><!-- /container -->
+		<!-- <script type="text/javascript" src="//s3.amazonaws.com/scripts.hellobar.com/79d19187a51f8c1aa4125d050492ad7490b26ab4.js"></script>-->
+
 	</body>
 	<script src="js/classie.js"></script>
 	<script src="js/borderMenu.js"></script>

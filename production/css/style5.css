@@ -7,7 +7,17 @@
 }
 
 body  {
-	background: #1abc9c;
+	background: #a61d31;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -48,7 +58,7 @@ body  {
 
 .bt-menu-trigger {
 	position: fixed;
-	top: 10px;
+	top: 40px;
 	left: 20px;
 	z-index: 100;
 	display: block;
@@ -80,7 +90,16 @@ body  {
 	background-color: transparent;
 }
 
-.bt-menu-trigger span:before,
+.bt-menu-trigger span:before {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
 .bt-menu-trigger span:after {
 	position: absolute;
 	left: 0;
@@ -130,7 +149,7 @@ body  {
 }
 
 .bt-menu ul:first-of-type {
-	top: 75px;
+	top: 100px;
 	left: 0;
 }
 
@@ -250,5 +269,5 @@ body  {
 .bt-menu ul:first-of-type li a:focus,
 .bt-menu ul li a:hover:before,
 .bt-menu ul li a:focus:before {
-	color: #1abc9c;
+	color: #a61d31;
 }
