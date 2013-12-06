@@ -1,18 +1,52 @@
 $(document).ready(function(){
-	$("#ss").show();
-	$("#board").hide();
+	var url = document.URL;
+	url = url.split('#');
+	if (url[1] == 'submit'){
+		toggle('artists');
+	}
+	else{
+		toggle("home");
+	}
+	
 
-	$("#home-btn").click(function(){
-		$("#ss").show();
-		$("#board").hide();
+	$("#artists-btn").click(function(){
+		toggle("artists");
 		menuHelper()
 	});
 
 	$("#board-btn").click(function(){
-		$("#ss").hide();
-		$("#board").show();
+		toggle("board");
 		menuHelper()
 	});
+
+	$("#connect-btn").click(function(){
+		toggle("connect");
+		menuHelper()
+	});
+
+	$("#gallery-btn").click(function(){
+		toggle('gallery');
+		menuHelper()
+	});
+
+	$("#home-btn").click(function(){
+		toggle("home");
+		menuHelper()
+	});
+
+	$("#support-btn").click(function(){
+		toggle("support");
+		menuHelper()
+	});
+
+	$("#testimonials-btn").click(function(){
+		toggle("testimonials");
+		menuHelper()
+	});
+
+	$(".woahbar-link").click(function(){
+		toggle("artists");
+	})
 
 });
 
@@ -21,7 +55,15 @@ function menuHelper(){
     $("#bt-menu").addClass('bt-menu-closed');
 };
 
-// function toggle(id, divs){
-// 	var id = id.substring(0, str.length - 4)
-// 	$(id).show()
-// };
+function toggle(id){
+	$("#artists").hide()
+	$("#board").hide();
+	$("#connect").hide();
+	$("#gallery").hide()
+	$("#home").hide();
+	$("#support").hide();
+	$("#testimonials").hide();
+	$("#"+id).show();
+};
+
+

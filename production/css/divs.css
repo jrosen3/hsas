@@ -1,0 +1,54 @@
+#artists {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+}
+
+#connect{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+}
+
+#gallery{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+}
+
+#support{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+	background-color: orange;
+}
+
+#testimonials{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: orange;
+}

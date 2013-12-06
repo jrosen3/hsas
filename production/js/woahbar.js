@@ -3,12 +3,12 @@ var stub_showing = false;
 function woahbar_show() { 
     if(stub_showing) {
       $('.woahbar-stub').slideUp('fast', function() {
-        $('.woahbar').show('bounce', { times:3, distance:15 }, 100); 
+        $('.woahbar').show('drop', {direction:'up'}, 250); 
         $('body').animate({"marginTop": "2.4em"}, 250);
       }); 
     }
     else {
-      $('.woahbar').show('bounce', { times:3, distance:15 }, 100); 
+      $('.woahbar').show('drop', {direction:'up'}, 250); 
       $('body').animate({"marginTop": "2.4em"}, 250);
     };
 
@@ -25,7 +25,7 @@ function woahbar_show() {
 
 function woahbar_hide() { 
     $('.woahbar').slideUp('fast', function() {
-      $('.woahbar-stub').show('bounce', { times:3, distance:15 }, 100);  
+      $('.woahbar-stub').show('drop', {direction:'up'}, 250);  
       stub_showing = true;
     }); 
 
