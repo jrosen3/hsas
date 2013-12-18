@@ -1,4 +1,4 @@
-<?php include('testimonials.php') ?>
+<?php include('top.php') ?>
 	<div id="board">
 		<!-- Stuff -->
 	</div>

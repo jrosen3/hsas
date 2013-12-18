@@ -6,7 +6,7 @@
 	<body>
 		<div class="woahbar" style="display:none">
 			<span>
-				We are now accepting submitions for the 5th annual Harvard Student Art Show. <a class="woahbar-link">Submit Here!</a>
+				We are now accepting submitions for the 5th annual Harvard Student Art Show. <a href="artists.php" class="woahbar-link">Submit Here!</a>
 			</span>
 			<a class="close-notify" onclick="woahbar_hide();"><img class="woahbar-up-arrow" src="img/woahbar-up-arrow.png"></a>
 		</div>

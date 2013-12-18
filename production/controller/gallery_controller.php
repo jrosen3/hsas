@@ -4,23 +4,24 @@
 	$echo = '';
 	foreach($folders as $year)
 	{
-		$echo .= '<div id="y-'.$year.'">';
+		$echo .= '<div id="y-'.$year.'"><div class="center">';
 		$pics = scandir($dir.$year);
 		$skip = 0;
 		foreach($pics as $pic)
 		{
 			if($skip > 2)
 			{
-				$description = '';
-				if($year != 2012)
+				$description = 'ARTIST NAME HERE';
+				if($year == 2011)
 				{
 					$description = get_name($pic);
 				}
-				$echo .= '<a href="img/'.$year.'/'.$pic.'" rel="prettyPhoto[pp_gal]" title="'.$description.'"><img src="img/'.$year.'/'.$pic.'" width="150" height="112.5"/></a>';
+				$style = 'width="150" height="113"';
+				$echo .= '<a href="img/'.$year.'/'.$pic.'" rel="prettyPhoto[pp_'.$year.']" title="'.$description.'"><img class="gal-img" src="img/'.$year.'/'.$pic.'" '.$style.'/></a>';
 			}
 			$skip++;
 		}
-		$echo .= '</div>';
+		$echo .= '</div></div>';
 	}
 
 	echo "$echo";
