@@ -82,10 +82,10 @@
     margin: 0px;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/Cosby_Dog.JPG) 
+    background-image: url(../img/z/full2012/IMG_1985.jpeg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../img/Eric_Rosen.jpg);
+    background-image: url(../img/z/full2011/alex_palmer.JPG);
     -webkit-animation-delay: 10s;
     -moz-animation-delay: 10s;
     -o-animation-delay: 10s;
@@ -93,7 +93,7 @@
     animation-delay: 10s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../img/Frank_Jones.jpg);
+    background-image: url(../img/z/full2011/max_hooper_schneider.jpg);
     -webkit-animation-delay: 20s;
     -moz-animation-delay: 20s;
     -o-animation-delay: 20s;
@@ -101,7 +101,7 @@
     animation-delay: 20s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../img/Jared_Rosen.jpg);
+    background-image: url(../img/z/full2013/Assisi.JPG);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
@@ -109,7 +109,7 @@
     animation-delay: 30s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../img/Kevin_Rosen.JPG);
+    background-image: url(../img/z/full2012/Concentration9.jpg);
     -webkit-animation-delay: 40s;
     -moz-animation-delay: 40s;
     -o-animation-delay: 40s;
@@ -117,7 +117,7 @@
     animation-delay: 40s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../img/Vicky_Silvera.jpg);
+    background-image: url(../img/z/full2012/AO_CN11s.jpg);
     -webkit-animation-delay: 50s;
     -moz-animation-delay: 50s;
     -o-animation-delay: 50s;

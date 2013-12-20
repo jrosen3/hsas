@@ -1,29 +1,29 @@
 #artists {
 	width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: pink;
+    background-image: url('../img/brushed/brushed.png');
 }
 
 #connect{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: orange;
+    background-image: url('../img/brushed/brushed.png');
     text-align: center;
 }
 
 #gallery{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -34,22 +34,33 @@
 
 #support{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     margin: 0px;
     padding: 0px;
-	background-color: orange;
+	background-image: url('../img/brushed/brushed.png');
 }
 
 #testimonials{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
     margin: 0px;
     padding: 0px;
-    background-color: orange;
+    background-image: url('../img/brushed/brushed.png');
+}
+
+#board{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/brushed/brushed.png');
 }

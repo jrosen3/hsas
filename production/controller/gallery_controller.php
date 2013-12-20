@@ -11,12 +11,12 @@
 		{
 			if($skip > 2)
 			{
-				$description = 'ARTIST NAME HERE';
+				$description = '';//'ARTIST NAME HERE';
 				if($year == 2011)
 				{
 					$description = get_name($pic);
 				}
-				$style = 'width="150" height="113"';
+				$style = 'height="113"';
 				$echo .= '<a href="img/'.$year.'/'.$pic.'" rel="prettyPhoto[pp_'.$year.']" title="'.$description.'"><img class="gal-img" src="img/'.$year.'/'.$pic.'" '.$style.'/></a>';
 			}
 			$skip++;

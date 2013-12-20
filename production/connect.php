@@ -12,13 +12,13 @@
 				$(function() {
 					$('#email-list').submit(function() {
 						$.ajax({
-						type: 'POST',
-						url: 'https://zapier.com/hooks/catch/n/dngiw/',
-						data: {'email': $(this).email.value}
-        			});
-        			return false;
+							type: 'POST',
+							url: 'https://zapier.com/hooks/catch/n/myg56/',
+							data: {'email': $(this).email.value}
+        				});
+        				return false;
 					}); 
-				})
+				});
 			</script>
 		</div>
 	</div>

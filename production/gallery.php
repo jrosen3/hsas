@@ -4,15 +4,15 @@
 		<div id="push-down"></div>
 		<div id="all-img">
 			<div class="gal-thumb gal-img" onClick="showGal('y-2011');">
-				<img src="img/Jared_Rosen.jpg"/>
+				<img src="img/2011/alexandra_libby.jpg"/>
 				<span class="gal-text">2011</span>
 			</div>
 			<div class="gal-thumb gal-img" onClick="showGal('y-2012');">
-				<img src="img/Kevin_Rosen.jpg"/>
+				<img src="img/2012/Concentration1.jpg"/>
 				<span class="gal-text">2012</span>
 			</div>
 			<div class="gal-thumb gal-img" onClick="showGal('y-2013');">
-				<img src="img/Jared_Rosen.jpg"/>
+				<img src="img/2013/inkjet007_rg_retouch.jpg"/>
 				<span class="gal-text">2013</span>
 			</div>
 		</div>
@@ -23,6 +23,7 @@
 			$("#y-2011").hide();
 			$("#y-2012").hide();
 			$("#y-2013").hide();
+			$(".gal-thumb").show();
 		};
 
 		function loadGal(){
@@ -46,7 +47,7 @@
 		function showGal(year){
 			hideGal();
 			$("#"+year).show();
-			$("#Test").show();
+			$(".gal-thumb").hide();
 		};
 
 		$(document).keyup(function(e) {

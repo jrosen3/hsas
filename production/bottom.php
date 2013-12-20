@@ -8,14 +8,12 @@
 					<li><a href="gallery.php" id="gallery-btn">Gallery</a></li>
 					<li><a href="artists.php" id="artists-btn">Artists</a></li>
 					<li><a href="testimonials.php" id="testimonials-btn">Testimonials</a></li>
-					<li><a href="connect.php" id="connect-btn">Contat</a></li>
+					<!-- <li><a href="connect.php" id="connect-btn">Contat</a></li> -->
 					<li><a href="support.php" id="support-btn">Support</a></li>
 				</ul>
 				<ul>
-					<li><a href="http://www.twitter.com/codrops" class="bt-icon icon-twitter">Twitter</a></li>
-					<li><a href="https://plus.google.com/101095823814290637419" class="bt-icon icon-gplus">Google+</a></li>
-					<li><a href="http://www.facebook.com/pages/Codrops/159107397912" class="bt-icon icon-facebook">Facebook</a></li>
-					<li><a href="https://github.com/codrops" class="bt-icon icon-email">icon-github</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/harvardstudentartshowhsas" class="bt-icon icon-facebook">Facebook</a></li>
+					<li><a href="mailto:harvardstudentartshow@gmail.com" class="bt-icon icon-email">Email</a></li>
 				</ul>
 			</nav>
 		</div><!-- /container -->
